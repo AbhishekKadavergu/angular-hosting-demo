@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "a712358b-4f57-4c98-b3aa-aa6d6f1bea54"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -98,6 +101,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
